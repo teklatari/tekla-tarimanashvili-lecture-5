@@ -1,0 +1,90 @@
+/* Apply font to everything */
+body {
+  font-family: "BPG Nostalgia", sans-serif;
+  padding: 54px 52px;
+  margin: 0;
+}
+
+a {
+  color: #8D81FF;
+  font-size: 26px;
+  font-weight: 700;
+  text-decoration: none;
+}
+
+.active {
+  color: #4E6FAE;
+}
+
+ul {
+  list-style: none;
+  padding: 2px;
+}
+
+li {
+  display: inline-block;
+  vertical-align: middle;
+  margin-left: 81px;
+}
+
+header {
+  margin-bottom: 44px;
+}
+
+.logo {
+  vertical-align: middle;
+}
+
+nav {
+  display: inline-block;
+  vertical-align: middle;
+}
+
+.background {
+  background-color: #E7E7E7;
+  width: 100%;
+  padding: 40px 60px;
+  box-sizing: border-box;
+  margin-top: 43px;
+}
+
+.headtext h2 {
+  color: #4E6FAE;
+  font-weight: 700;
+  font-size: 36px;
+  margin-bottom: 20px;
+}
+
+.content-row {
+  display: flex;
+  gap: 40px;
+  align-items: flex-start;
+  max-width: 100%;
+}
+
+.secondtext {
+  width: 600px;
+  font-size: 20px;
+  font-weight: 400;
+  color: black;
+  line-height: 200%;
+  font-family: "BPG Nostalgia";
+  margin-bottom: 10px;
+
+
+}
+
+span {
+  color: #7E8898;
+}
+
+.map {
+  width: 60%;
+  max-width: 944px;
+  height: auto;
+  object-fit: contain;
+  display: block;
+}
+.pa{
+    margin-bottom: 10px
+}
